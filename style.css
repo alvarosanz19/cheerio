@@ -11,25 +11,9 @@
 }
 
 /* set the default color, font-size, and line height */
-.top{
-  background-color: yellow;
-  display: inline-block;
-  font-size: 40px;
-}
-.under-that{
-  font-size: 50px;
-}
-.even-more-under{
-  font-size: 200px;
-}
-h1 {
-  background-color: yellow;
-  display: inline-block;
-  font-size: 40px;
-}
 body {
-  background-color: yellow;
-
+  background-color: #F0C505 ;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 }
 html {
   color: #333;
@@ -39,7 +23,7 @@ html {
 
 .wrap {
   margin: 0 auto;
-  max-width: 1000px; /* change this width to make a wider page!*/
+  max-width: 100%; /* change this width to make a wider page!*/
   padding: 0 1em; /* 1em of padding on the left and right side */
 }
 
@@ -50,6 +34,9 @@ object {
 }
 
 /* type hierarchy- change for your project */
+h1 {
+  font-size: 3em; /* 48px */
+}
 
 h2 {
   font-size: 2.25em /* 36px */
@@ -74,36 +61,285 @@ h4 {
     author styles
     place your custom styles below here
 ========================================== */
-
-.top{
-  background-color: green;
-  display: inline-block;
-  font-size: 40px;
+img{
+display: block;
+margin: 0 auto;
 }
-.under-that{
-  font-size: 200px;
+.heart {
+padding-top: 150px;
+width: 1700px;
+
+}
+.under-that h2{
+   color: #C0012A;
+  font-family: 'Oswald', sans-serif;
+   font-size: 35px;
+   line-height: 1;
+   font-weight: normal;
+   text-align: center;
+   width: 100%;
+   margin: 0;
+   padding-top: 70px;
+   text-shadow: 2px 2px white;
 }
 .even-more-under{
-  font-size: 200px;
+  color: #C0012A;
+ font-family: 'Oswald', sans-serif;
+  font-size: 103px;
+  font-weight: normal;
+  text-align: center;
+  width: 100%;
+padding: 0px;
+margin: 0px;
+padding: 0;
+line-height: 1;
+text-shadow: 3px 3px white;
+}
 
 
+.left{
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  	font-size: 24px;
+      float: left;
+  width: 300px;
+ color: #C0012A;
+  text-shadow: 1px 1px white;
+  text-shadow: 1px 1px white;
+  margin-left: 450px;
 
+}
+.even-more-under p {
+  padding: 0;
+  margin: 0;
+}
+.glutenn {
 
+float: right;
+width: 17%;
+margin-right: 500px;
+}
+.footer {
+  padding-top: 500px;
+}
+.wheattt div{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.top{
+  display: block;
+  font-size: 40px;
+  background-color: #FEFBAF;
+  position: fixed;
+width: 100%;
+top:0;
+  }
+  .column-full nav {
 
+    background-color: #FEFBAF;
+    padding-right: 30px;
+  }
+  .column-full {
+    margin-top: -30px;
+    margin-bottom: -20px;
+  }
+  .under-that{
+    float:left;
+font-size: 30px;
+letter-spacing: 10px;
+color: red;
+width: 100%;
+margin: 0 auto;
+position: relative;
+top:-50px;
 
+}
+.links li{
+  display: inline-block;
+  margin-right: 10px;
+padding-left: 100px;
+color: #FE6960;
+  color:black;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 
+}
+/* style visited links */
+a:visited {
+  color: grey;
+}
 
+/* style hover/focus links */
+a:hover,
+a:active,
+a:focus {
+  color: #F0C505;
 
+}
 
+header{
+  position: fixed;
+margin-bottom: 40px;
+}
 
+.itstarts {
+  width: 40%;
+    color: #C0012A;
+    font-size: 30px;
+    margin-left: 50px;
+    text-align: center;
+    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px white;
 
+  }
+.itstarts h4{
+  margin-left: 20px;
+  text-decoration: underline
+}
 
+.thejourney{
+  color: #C0012A;
+    width: 40%;
+      font-size: 30px;
+      float: right;
+      margin-right: 50px;
+      text-align: center;
+      text-shadow: 1px 1px white;
+      text-shadow: 1px 1px white;
+}
+.thejourney h4{
+  text-align: center;
+  text-decoration: underline
+}
 
+.cheerios4everyone{
+  color: #C0012A;
+    width: 40%;
+      font-size: 30px;
+      text-align: center;
+      text-shadow: 1px 1px white;
+      text-shadow: 1px 1px white;
+      margin-left: 50px;
+}
+.cheerios4everyone h4{
+  text-decoration: underline
+}
 
+.fotofondo {
+  margin-top: 170px;
+  margin-left: -115px;
 
+}
+.fotofamily {
+  float: right;
+  margin-top: -515px;
+  padding-top: 80px;
+  margin-right: -20px;
+}
+.insta {
+  float: right;
+  margin-top: -420px;
+  margin-right: -74px;
+}
+.yo {
+  margin-top: 100px;
+}
+.gluten {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  color: #C0012A;
+ font-family: 'Oswald', sans-serif;
+  font-size: 33px;
+  font-weight: normal;
+  text-align: center;
+  width: 100%;
+padding: 0px;
+margin: 0px;
+padding: 0;
+text-shadow: 3px 3px white;
+margin-bottom: 0;
+padding-bottom: 0;
 
+}
+.undergluten {
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+ font-family: 'Oswald', sans-serif;
+  font-size: 23px;
+  font-weight: normal;
+  text-align: center;
+  width: 100%;
+padding: 0px;
+margin: 0px;
+padding: 0;
+line-height: 1;
+text-shadow: 3px 3px #C0012A;
 
+}
 
+.fresitas {
+  padding-top: 86px;
+}
+
+.bamm li{
+  margin-left: -40px;
+}
+
+.fototetee {
+  margin-top: 86px;
+  margin-bottom: -140px;
+
+}
+.onegram h1{
+color: #C0012A;
+font-family: 'Oswald', sans-serif;
+font-size: 55px;
+line-height: 1;
+font-weight: normal;
+text-align: center;
+width: 100%;
+margin: 0;
+text-shadow: 2px 2px white;
+background-color: #FEFBAF;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-top: -10px;
+
+}
+.onegram {
+  margin-top: 10px;
+}
+.suga {
+  letter-spacing: 7px;
+}
+.suuga {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 33px;
+  width: 100%;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+table{
+  margin-top: 300px;
+  border: solid;
+  text-align: center;
+margin: 0 auto;
+margin-top: 100px;
+font-size: 25px;
+background-color: white;
+}
+tr{
+  border-bottom: solid;
+  text-align: left;
+padding-left: 5px;
+}
+.aver li{
+  margin-left: -70px;
+}
+}
 /* =======================================
     Layout
     keep this at the bottom
